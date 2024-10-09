@@ -1,0 +1,160 @@
+.section-bg{
+    background-color: #F3F3F3 ;
+    padding: 64px 0;
+}
+.container{
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 360px;
+    height: 116.2px;
+}
+.mini-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.ellipse{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-right: 16px;  
+}
+.back-image{
+    background-image: url(../images/CTAImg-Wide-1440px+-New.jpg);
+    width: 100%;
+    height: 564px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.action{
+    width: 84px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    font-family: 'Inter 24pt';
+}
+.p-tag{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+color:#FFFFFF;    
+}
+.div-h2{
+    width: 540px;
+    text-align: center;
+    margin: 10px 0;
+}
+.h2{
+    
+font-size: 40px;
+font-weight: 900;
+line-height: 48px;
+letter-spacing: -0.5px;
+color:#FFFFFF;
+}
+
+.footer-bg{
+    background-color: #000000;
+    padding: 96px 0;
+    color: #F3F3F3;
+}
+.footer-container{
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.foter-mini-divs-container{
+    display: flex;
+}
+.footer-mini-divs{
+    width: 228px;
+}
+
+.h4{
+font-size: 24.65px;
+font-weight: 900;
+line-height: 26.41px;
+letter-spacing: -0.44023728370666504px;
+}
+.h5{
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+}
+.h5-margin{
+    margin-bottom: 16px;
+}
+.sub-margin{
+    margin-bottom: 24px;
+}
+.margin-li{
+    margin-bottom: 8px;
+}
+
+/*  responsive */
+
+@media(max-width:1024px ){
+    .none{
+        display: none;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .brand{
+        margin-bottom: 48px;
+    }
+    
+    }
+    @media(max-width:744px){
+        .container{
+            flex-wrap: wrap;
+            justify-content:center;   
+        }
+        .box{
+            max-width: 744px;
+            width: 100%;
+            text-align: center;
+        }
+        .mini-box{
+            justify-content: center;
+            text-align: center;
+        }
+        .div-h2{
+            max-width: 744px;
+            width: 100%;
+        }
+    }
+    @media (max-width:375px){
+        .h2{
+            font-size: 28px;
+        }
+        .div-h2{
+            max-width: 375px;
+            width: 100%;
+        }
+       .brand{
+        display: flex;
+        justify-content: center;
+       }
+        
+      
+    }
+    
